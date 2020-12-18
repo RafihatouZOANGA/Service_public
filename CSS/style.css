@@ -146,10 +146,21 @@ nav ul li a{
     position: relative;
     top: 150px;
 }
+.bloc2_1_2{
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: #d4d0d0 0 0 2px 3px; 
+}
+.im_bloc2{
+    position: relative;
+    top: 25px;
+    left: 100px;
+}
 footer .container-fluid{
     position: relative;
     top: 250px;
     height: 330px;
+    padding-top: 30px;
 }
 
 
