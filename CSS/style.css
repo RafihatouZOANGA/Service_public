@@ -105,17 +105,17 @@ nav ul li a{
 .file{
     position: relative;
     top: 25px;
-    left: 110px;
+    left: 42%;
 }
 .b_man{
     position: relative;
     top: 38px;
-    left: 47px;
+    left: 10%;
 }
 .classroom{
     position: relative;
     top: 25px;
-    left: 100px;
+    left: 40%;
 }
 .bloc1_text{
     color: rgb(75, 73, 73);
@@ -154,7 +154,14 @@ nav ul li a{
 .im_bloc2{
     position: relative;
     top: 25px;
-    left: 100px;
+    left: 40%;
+}
+.bloc2_1_2 .off_user{
+    font-size: small;
+}
+.off_user{
+    display: flex;
+    justify-content: space-around;
 }
 footer .container-fluid{
     position: relative;
