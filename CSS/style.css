@@ -94,33 +94,24 @@ nav ul li a{
     color: rgba(76, 71, 71, 0.856);
 }
 .bloc1_1{
-    height: 200px;
+    min-height: 200px;
     border-radius: 5px;
     box-shadow: #d4d0d0 0 0 2px 3px;
 }
 .bloc1_1:hover{
-    background-color: rgb(0, 0, 255);
+    background: linear-gradient(180deg,#448AFF, #002a40);
 }
-
-.file{
-    position: relative;
-    top: 25px;
-    left: 42%;
-}
-.b_man{
-    position: relative;
-    top: 38px;
-    left: 10%;
-}
-.classroom{
-    position: relative;
-    top: 25px;
-    left: 40%;
+.profil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
 }
 .bloc1_text{
     color: rgb(75, 73, 73);
     text-align: center;
     margin-top: 40px;
+    height: 100px;
 }
 .bloc1_text:hover{
     color: white
@@ -131,25 +122,45 @@ nav ul li a{
     position: relative;
     display: inline-block;
     top: 30px;
-    left: 450px;
+}
+.voir{
+    margin-left: 68%;
+}
+.btn:hover{
+    color: white;
+}
+.apps{
+    margin-left: 60%;
+}
+.btn2:hover{
+    color: white;
 }
 .sect2{
     background-color: #f7f1f1;
     position: relative;
     top: 250px;
-    height: 660px;
+    height: 770px;
 }
 .sect2 .container .row .usagers p{
     text-align: center;
 }
 .bloc2_2{
     position: relative;
-    top: 150px;
+    top: 200px;
 }
 .bloc2_1_2{
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
     box-shadow: #d4d0d0 0 0 2px 3px; 
+}
+.bloc2_1_2:hover{
+    box-shadow: #d4d0d0 0 0 8px 10px; 
+}
+.bloc2_text{
+    text-align: center;
+}
+.bloc2_text a{
+    color: rgb(59, 58, 58);
 }
 .im_bloc2{
     position: relative;
@@ -164,10 +175,42 @@ nav ul li a{
     justify-content: space-around;
 }
 footer .container-fluid{
+    background: #002a40;
     position: relative;
     top: 250px;
-    height: 330px;
+    height: 360px;
     padding-top: 30px;
+    color: #fff;
+}
+footer .container-fluid .row .col-2 ul li a{
+    text-decoration: none;
+    color: rgb(179, 212, 216);
+}
+footer .container-fluid .row .col-3 ul li a{
+    text-decoration: none;
+    color: rgb(179, 212, 216);
+}
+footer .container-fluid .row .col-2 ul li a:hover{
+    color: white
+}
+footer .container-fluid .row .col-3 ul li a:hover{
+    color: white
+}
+footer .container-fluid .row .col-2 ul li{
+    list-style: none;
+}
+footer .container-fluid .row .col-3 ul li{
+    list-style: none;
+}
+footer .container-fluid .row .col-2 li{
+    list-style: none;
+}
+.cookies{
+    display: flex;
+    justify-content: space-between;
+}
+.Copyright{
+    text-align: center;
 }
 
 
